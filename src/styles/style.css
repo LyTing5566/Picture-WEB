@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -12,5 +16,65 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+nav {
+  background-color: royalblue;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 3rem;
+}
+
+nav ul li {
+  padding: 0.5rem 1rem;
+}
+
+nav ul li a {
+  font-size: 1.5rem;
+  color: wheat;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 3rem 0rem;
+}
+
+.search input,
+.search button {
+  font-size: 2rem;
+  padding: 0.25rem;
+  border: 2px solid #142758;
+}
+
+.search button {
+  background-color: #456fec;
+  color: white;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  background-color: #cecece;
 }
 /*# sourceMappingURL=style.css.map */

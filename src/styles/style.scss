@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -12,3 +16,6 @@ a {
 ul {
   list-style-type: none;
 }
+@import "./nav";
+@import "./search";
+@import "./footer";

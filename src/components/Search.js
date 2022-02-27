@@ -7,7 +7,7 @@ const Search = ({ search, setIntput }) => {
 
   return (
     <div className="search">
-      <input onChange={inputHandler} type="text" />
+      <input className="input" onChange={inputHandler} type="text" />
       <button onClick={search}>Search</button>
     </div>
   );

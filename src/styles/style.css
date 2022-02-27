@@ -18,6 +18,28 @@ ul {
   list-style-type: none;
 }
 
+.morePicture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem;
+}
+
+.morePicture button {
+  padding: 0.25rem 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+}
+
 nav {
   background-color: royalblue;
 }
@@ -114,5 +136,22 @@ nav ul li a {
 .pictures .picture .imageContainer img:hover {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
+}
+
+.about {
+  margin-top: 25%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.about h1 {
+  color: cadetblue;
+  font-size: 45px;
+}
+
+.about h1 p {
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
